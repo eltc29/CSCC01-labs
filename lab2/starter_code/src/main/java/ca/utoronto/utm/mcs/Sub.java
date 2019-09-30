@@ -50,7 +50,7 @@ public class Sub implements HttpHandler
         os.close();
     }
 
-    public void handlePost(HttpExchange r) {
+    public void handlePost(HttpExchange r) throws IOException, JSONException {
         /* TODO: Implement this.
            Hint: This is very very similar to the get just make sure to save
                  your result in memory instead of returning a value.*/
